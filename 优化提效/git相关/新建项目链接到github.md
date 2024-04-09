@@ -17,6 +17,8 @@ cache
 *.local
 ```
 
+这里注意下，如果是 vitepress 的项目，不要把 dist 添加进.gitignore
+
 ## 三、推送
 
 ### 3.1 添加远程仓库到本地
@@ -27,6 +29,8 @@ git commit -m 'init'
 git branch -M master
 git remote add origin https://github.com/WhitneyDing/palette.git
 ```
+
+这里注意下 main 和 master 分支 有时候不统一
 
 ### 3.2 推送至远程
 
@@ -49,3 +53,5 @@ id_rsa.pub：公钥（可以公开的钥匙）
 ### 4.2 复制公钥进入 github
 
 ![alt text](image-1.png)
+
+完事儿
