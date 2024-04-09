@@ -19,17 +19,16 @@ cache
 
 ## 三、推送
 
-### 3.1 添加
+### 3.1 添加远程仓库到本地
 
-`git add .`
-`git commit -m 'init'`
-`git remote add origin`
+```
+git add .
+git commit -m 'init'
+git branch -M master
+git remote add origin https://github.com/WhitneyDing/palette.git
+```
 
-### 3.2 添加远程仓库到本地
-
-`https://github.com/WhitneyDing/palette.git`
-
-### 3.3 推送至远程
+### 3.2 推送至远程
 
 `git push -u origin master`
 这里的-u 代表下一次推送直接 git push 就可以
