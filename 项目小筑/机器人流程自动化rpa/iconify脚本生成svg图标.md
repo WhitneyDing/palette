@@ -31,4 +31,4 @@ iconify 官网：https://iconify.design/getting-started/
   import { SVG, blankIconSet, cleanupSVG, runSVGO } from "@iconify/tools";
   ```
 
-  关于 fileURLToPath、import.meta、path.dirname 等的用法，详见[import.meta](../../js/import.meta.md)
+  关于 fileURLToPath、import.meta、path.dirname 等的用法，详见 js 栏目
