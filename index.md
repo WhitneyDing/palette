@@ -5,16 +5,16 @@ layout: home
 hero:
   name: "Hey, this is Whitney"
   text: "Front End"
-  tagline: My great project tagline
+  tagline: Welcome to my palette🦊🐸🎈🎨
   image:
     src: /palette.png
     alt: 背景图片
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get Started
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: View on Github
       link: /api-examples
 
 features:
